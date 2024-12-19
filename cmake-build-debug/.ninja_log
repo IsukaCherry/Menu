@@ -1,0 +1,22 @@
+# ninja log v6
+3	119	7562187489799344	CMakeFiles/Menu.dir/LoginRegister.c.obj	8a032de83c5d3c30
+1	271	7562368614979280	build.ninja	a23939cfafb92f16
+2	583	7562363781860557	CMakeFiles/Menu.dir/main.c.obj	8aabed1425e038b1
+2	1466	7562754524906617	CMakeFiles/Menu.dir/src/main.c.obj	7157bdd0ce2fa473
+33	699	7562136145786503	CMakeFiles/Menu.dir/WordBookManagement.c.obj	604b59bb0d9d575d
+131	353	7562780815103188	Menu.exe	4109909c8c21437e
+57	181	7562136146029186	CMakeFiles/Menu.dir/MemorizeWords.c.obj	818ed4e9db009d19
+2	131	7562780813822525	CMakeFiles/Menu.dir/src/logiAndRegister/LoginRegister.c.obj	478b15f9e1444bc2
+22	145	7562768966673043	CMakeFiles/Menu.dir/src/memorizeWord/MemorizeWords.c.obj	310862066c7f0724
+33	1474	7562754525219654	CMakeFiles/Menu.dir/src/wordBook/WordBookManagement.c.obj	c9ef1996ac38b7cc
+4	149	7562781975018449	CMakeFiles/Menu.dir/src/logiAndRegister/LoginRegister.c.obj	478b15f9e1444bc2
+150	289	7562781976478947	Menu.exe	4109909c8c21437e
+21	149	7562792327673331	CMakeFiles/Menu.dir/src/logiAndRegister/LoginRegister.c.obj	478b15f9e1444bc2
+41	183	7562792327877189	CMakeFiles/Menu.dir/src/memorizeWord/MemorizeWords.c.obj	310862066c7f0724
+3	602	7562792327493114	CMakeFiles/Menu.dir/src/main.c.obj	7157bdd0ce2fa473
+602	741	7562792333481861	Menu.exe	4109909c8c21437e
+3	599	7562794806296613	CMakeFiles/Menu.dir/src/wordBook/WordBookManagement.c.obj	c9ef1996ac38b7cc
+599	763	7562794812259301	Menu.exe	4109909c8c21437e
+2	139	7562806980400446	CMakeFiles/Menu.dir/src/logiAndRegister/LoginRegister.c.obj	478b15f9e1444bc2
+23	627	7562806980610612	CMakeFiles/Menu.dir/src/wordBook/WordBookManagement.c.obj	c9ef1996ac38b7cc
+627	773	7562806986642158	Menu.exe	4109909c8c21437e
