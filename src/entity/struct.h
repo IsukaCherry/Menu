@@ -5,8 +5,8 @@
 #define ALL 50
 typedef struct
 {
-    char UsersName[MAX];
-    char Password[MAX];
+    char UsersName[100];
+    char Password[100];
     int score;
     int daysStudied;
 }User ;

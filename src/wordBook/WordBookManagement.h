@@ -1,4 +1,4 @@
-#ifndef WORDBOOKMANAGEMENT_H
+    #ifndef WORDBOOKMANAGEMENT_H
 #define WORDBOOKMANAGEMENT_H
 #include "../entity/struct.h"
 int ReadWordBook(char* fname,Word word[]);

@@ -180,23 +180,20 @@ void Encourgement()
 {
     int count=0;
     int TimeCount=ReadTime(TimeLocation, CurrentTime);
-    if ((CurrentTime[TimeCount+1].year-CurrentTime[TimeCount+1].year>1) || (CurrentTime[TimeCount+1].month-CurrentTime[TimeCount].month>1)
-    || (CurrentTime[TimeCount+1].day-CurrentTime[TimeCount].day)>2 ) {
-        printf("你已经很长时间没学习了，欢迎回来学习！");
-        return;
-    }
-    for (int i = 0; i < TimeCount;i++) {
-        if (CurrentTime[i].year ==CurrentTime[i+1].year && CurrentTime[i].month ==CurrentTime[i+1].month
-            && CurrentTime[i].day ==CurrentTime[i+1].day)
+    for (int i = TimeCount; i >0;i--) {
+        if (CurrentTime[i].year ==CurrentTime[i-1].year && CurrentTime[i].month ==CurrentTime[i-1].month
+            && CurrentTime[i].day ==CurrentTime[i-1].day)
         {
             count++;
+        }
+        else {
+            break;
         }
     }
     srand(time(0));
     printf("你今天已经学习%d次了，真棒！\n请记住:精诚所至,金石为开\n",count);
     int EncourWord=rand() %10 +1;
-    switch (EncourWord)
-    {
+    switch (EncourWord) {
         case 1:
             printf("你比你想象的更强大，每一次努力都是进步的脚步。\n");
         break;
@@ -227,5 +224,4 @@ void Encourgement()
         default:
             printf("你是独一无二的，拥有改变世界的力量，别轻易放弃自己！\n");
     }
-    sleep(5);
 }
